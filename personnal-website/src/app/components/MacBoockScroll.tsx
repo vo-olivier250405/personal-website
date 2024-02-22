@@ -23,7 +23,7 @@ import { IconWorld } from "@tabler/icons-react";
 import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
-import Image from "next/image";
+import { ContactMeSection } from "./ContactMeSection";
 
 export const MacbookScroll = ({
   src,
@@ -165,7 +165,7 @@ export const Lid = ({
         className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
       >
         {/* // form here */}
-        <div className="absolute inset-0 bg-[#292727] rounded-lg" />
+        <ContactMeSection />
         {/* <Image
           src={src as string}
           alt="aceternity logo"
