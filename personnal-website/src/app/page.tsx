@@ -1,5 +1,5 @@
 import { Parallax } from "./components/Parallax";
-
+import { MacbookScroll } from "./components/MacBoockScroll";
 export default function Home() {
   return (
     <>
@@ -32,7 +32,10 @@ export default function Home() {
           },
         ]}
       />
-      <div className="h-screen text-white">JE SUIS LA</div>
+      <section className="h-screen">
+        <MacbookScroll />
+      </section>
+      <div></div>
     </>
   );
 }
