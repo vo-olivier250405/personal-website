@@ -1,14 +1,11 @@
+import { Product } from "@/interfaces";
 import Image from "next/image";
 
 export const Modal = ({
   product,
   closeModal,
 }: {
-  product: {
-    title: string;
-    link: string;
-    thumbnail: string;
-  };
+  product: Product;
   closeModal: () => void;
 }) => {
   return (

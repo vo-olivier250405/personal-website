@@ -1,3 +1,4 @@
+import { Product } from "@/interfaces";
 import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -5,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const PRODUCTS = [
+export const PRODUCTS: Product[] = [
   {
     title: "Moissan Fighter",
     link: "https://drive.google.com/file/d/1pCu_qf83LbPwMSwA57ww89hpfxn9TyKJ/view?usp=sharing",

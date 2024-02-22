@@ -9,16 +9,9 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import { Modal } from "./Modal";
+import { Product } from "@/interfaces";
 
-export const Parallax = ({
-  products,
-}: {
-  products: {
-    title: string;
-    link: string;
-    thumbnail: string;
-  }[];
-}) => {
+export const Parallax = ({ products }: { products: Product[] }) => {
   const firstRow = products.slice(0, 5);
   const secondRow = products.slice(5, 10);
   const thirdRow = products.slice(10, 15);
@@ -122,11 +115,7 @@ export const ProductCard = ({
   product,
   translate,
 }: {
-  product: {
-    title: string;
-    link: string;
-    thumbnail: string;
-  };
+  product: Product;
   translate: MotionValue<number>;
 }) => {
   const [modalOpen, setModalOpen] = useState(false);
