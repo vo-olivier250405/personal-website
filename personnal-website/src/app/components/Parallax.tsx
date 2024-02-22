@@ -108,9 +108,9 @@ export const Header = () => {
         Hi, Im <span>VO Olivier</span>, <br /> Etna student
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+        I&apos;m currently in my first year of project management at ETNA !
+        I&apos;m looking for a work-study position, and here are my projects and
+        my technical skills!
       </p>
     </div>
   );
