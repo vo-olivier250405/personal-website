@@ -26,9 +26,7 @@ export const Modal = ({
         />
         <h2 className="text-2xl font-bold text-black">{product.title}</h2>
 
-        {["Moissan Fighter", "Python Financial DashBoard"].includes(
-          product.title
-        ) && (
+        {product.link && (
           <a
             href={product.link}
             target="_blank"
