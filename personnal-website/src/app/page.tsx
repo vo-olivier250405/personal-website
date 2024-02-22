@@ -1,5 +1,6 @@
 import { Parallax } from "./components/Parallax";
 import { MacbookScroll } from "./components/MacBoockScroll";
+import { FloatingNav } from "./components/FloatingBar";
 
 export default function Home() {
   return (
@@ -7,29 +8,24 @@ export default function Home() {
       <Parallax
         products={[
           {
-            title: "Project1",
-            link: "https://github.com/",
-            thumbnail: "/assets/dogCar.jpg",
+            title: "Moissan Fighter",
+            link: "https://drive.google.com/file/d/1pCu_qf83LbPwMSwA57ww89hpfxn9TyKJ/view?usp=sharing",
+            thumbnail: "/assets/mfZ.png",
           },
           {
-            title: "Project1",
-            link: "https://github.com/",
-            thumbnail: "/assets/dogCar.jpg",
+            title: "Python Financial DashBoard",
+            link: "https://github.com/vo-olivier250405/pythonFinancialDashboard",
+            thumbnail: "/assets/pythonFinance.png",
           },
           {
-            title: "Project1",
-            link: "https://github.com/",
-            thumbnail: "/assets/dogCar.jpg",
+            title: "Gamify-tasks App",
+            link: "",
+            thumbnail: "/assets/gamifyTasks.png",
           },
           {
-            title: "Project1",
-            link: "https://github.com/",
-            thumbnail: "/assets/dogCar.jpg",
-          },
-          {
-            title: "Project1",
-            link: "https://github.com/",
-            thumbnail: "/assets/dogCar.jpg",
+            title: "Web-Organization App",
+            link: "",
+            thumbnail: "/assets/webapp.png",
           },
         ]}
       />
