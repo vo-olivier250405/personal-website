@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <Parallax products={PRODUCTS} />
+      <hr className="text-white m-4" />
       <MacbookScroll title="Scroll to contact me" />
-      <div></div>
     </>
   );
 }
