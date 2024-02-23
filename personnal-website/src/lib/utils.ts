@@ -1,4 +1,4 @@
-import { Product } from "@/interfaces";
+import { Card, Product } from "@/interfaces";
 import { ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -26,5 +26,49 @@ export const PRODUCTS: Product[] = [
     title: "Web-Organization App",
     link: "",
     thumbnail: "/assets/webapp.png",
+  },
+];
+
+export const WORDS: Card[] = [
+  {
+    id: 1,
+    sentence: "It's often said that I am",
+    content: "REGULAR",
+  },
+  {
+    id: 8,
+    sentence: "And I love work with a",
+    content: "TEAM",
+  },
+  {
+    id: 7,
+    sentence: "Finally, I am very",
+    content: "STAND-ALONE",
+  },
+  {
+    id: 6,
+    sentence: "And a bit",
+    content: "STUBBORN",
+  },
+  {
+    id: 5,
+    sentence: "My colleagues think I'm very",
+    content: "DETERMINED",
+  },
+  {
+    id: 4,
+    sentence: "My friends and my family also tell that I am",
+    content: "RESPECTFUL",
+  },
+  {
+    id: 3,
+    sentence: "I am also very",
+    content: "ATTENTIVE",
+  },
+
+  {
+    id: 2,
+    sentence: "But I know that I am",
+    content: "CALM",
   },
 ];

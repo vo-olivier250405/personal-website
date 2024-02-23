@@ -21,7 +21,19 @@ module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
-    // rest of the code
+    extend: {
+      spacing: {
+        "108": "27rem",
+
+        "120": "30rem",
+
+        "132": "33rem",
+
+        "144": "36rem",
+
+        "166": "39rem",
+      },
+    },
   },
   plugins: [
     // rest of the code
