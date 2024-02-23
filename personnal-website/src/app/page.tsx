@@ -1,13 +1,13 @@
 import { Parallax } from "./components/Parallax";
 import { MacbookScroll } from "./components/MacBoockScroll";
-import { FloatingNav } from "./components/FloatingBar";
-import { PRODUCTS, WORDS } from "@/lib/utils";
+import { PRODUCTS, SKILLS, WORDS } from "@/lib/utils";
 import { CardStack } from "./components/CardStack";
+import { AnimatedTooltip } from "./components/AnimatedToolTips";
 
 export default function Home() {
   return (
     <>
-      <Parallax products={PRODUCTS} />
+      {/* <Parallax products={PRODUCTS} />
       <hr className="text-white m-8" />
 
       <section className="h-screen grid">
@@ -18,7 +18,9 @@ export default function Home() {
       </section>
       <section className="h-screen p-132">
         <MacbookScroll title="Scroll to contact me" />
-      </section>
+      </section> */}
+
+      <AnimatedTooltip items={SKILLS} />
     </>
   );
 }

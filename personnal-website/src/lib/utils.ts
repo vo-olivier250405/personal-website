@@ -28,6 +28,50 @@ export const PRODUCTS: Product[] = [
     thumbnail: "/assets/webapp.png",
   },
 ];
+export const SKILLS = [
+  {
+    id: 1,
+    name: "Python",
+    designation: "Back-End",
+    image: "/assets/python.png",
+  },
+  {
+    id: 2,
+    name: "NodeJS",
+    designation: "Back-End",
+    image: "/assets/nodejs.png",
+  },
+  {
+    id: 3,
+    name: "NextJS",
+    designation: "Front-End",
+    image: "/assets/react.png",
+  },
+  {
+    id: 4,
+    name: "MySQL",
+    designation: "Back-End",
+    image: "/assets/MySQL-Logo.jpg",
+  },
+  {
+    id: 5,
+    name: "TypeScript",
+    designation: "Front-End",
+    image: "/assets/typescript.png",
+  },
+  {
+    id: 6,
+    name: "Prisma",
+    designation: "O.R.M",
+    image: "/assets/prisma.png",
+  },
+  {
+    id: 7,
+    name: "McDonalds",
+    designation: "CheeseBurger",
+    image: "/assets/dogCar.jpg",
+  },
+];
 
 export const WORDS: Card[] = [
   {
