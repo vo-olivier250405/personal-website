@@ -81,11 +81,6 @@ export const WORDS: Card[] = [
     content: "SKILLS",
   },
   {
-    id: 1,
-    sentence: "It's often said that I am",
-    content: "REGULAR",
-  },
-  {
     id: 8,
     sentence: "And I love work with a",
     content: "TEAM",
@@ -120,5 +115,10 @@ export const WORDS: Card[] = [
     id: 2,
     sentence: "But I know that I am",
     content: "CALM",
+  },
+  {
+    id: 1,
+    sentence: "It's often said that I am",
+    content: "REGULAR",
   },
 ];
