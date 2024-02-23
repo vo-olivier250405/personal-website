@@ -28,6 +28,7 @@ export const PRODUCTS: Product[] = [
     thumbnail: "/assets/webapp.png",
   },
 ];
+
 export const SKILLS = [
   {
     id: 1,
@@ -74,6 +75,11 @@ export const SKILLS = [
 ];
 
 export const WORDS: Card[] = [
+  {
+    id: 9,
+    sentence: "Here are my technicals skills, you can hover them !",
+    content: "SKILLS",
+  },
   {
     id: 1,
     sentence: "It's often said that I am",

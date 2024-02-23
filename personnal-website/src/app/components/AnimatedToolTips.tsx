@@ -38,8 +38,7 @@ export const AnimatedTooltip = ({
   };
 
   return (
-    <div className="flex flex-row m-16 p-4">
-      <div className="text-xl text-white">SKILLS</div>
+    <div className="flex flex-row m-32">
       {items.map((item, idx) => (
         <div
           className="-mr-4 relative group"
