@@ -9,7 +9,7 @@ export const ContactMeSection = () => {
           href="mailto:oliviervo.pro@gmail.com?"
           target="blank"
         >
-          oliviervo.pro@gmail.com
+          <p className="hover:text-red-500">oliviervo.pro@gmail.com</p>
         </a>
         <br />
 
