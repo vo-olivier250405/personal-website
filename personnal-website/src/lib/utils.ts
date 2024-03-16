@@ -13,6 +13,11 @@ export const PRODUCTS: Product[] = [
     thumbnail: "/assets/mfZ.png",
   },
   {
+    title: "TypeScript Automation App",
+    link: "https://github.com/vo-olivier250405/TypeScriptAutomationApp",
+    thumbnail: "/assets/TypeScriptAutomationApp.png",
+  },
+  {
     title: "Python Financial DashBoard",
     link: "https://github.com/vo-olivier250405/pythonFinancialDashboard",
     thumbnail: "/assets/pythonFinance.png",
