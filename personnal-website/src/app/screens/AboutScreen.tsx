@@ -15,22 +15,24 @@ export default function AboutScreen() {
           </a>
           After that, I decided to give my best to create beautiful and cool
           things. So I start to learn the web developpment. Now I learn it at
-          Etna, and I've done so many projects, I learn new skills very shortly
-          and I will continue !
+          Etna, and I&apos;ve done so many projects, I learn new skills very
+          shortly and I will continue !
         </p>
         <p className="mt-4">
-          Today, I want to be Fullstack web developper, more specifically back-end developper. I want to help the front developper.
+          Today, I want to be Fullstack web developper, more specifically
+          back-end developper. I want to help the front developper.
         </p>
         <p className="mt-4">
-          If you don't see me coding, I'm probably reading, playing chess or
-          just having{" "}
+          If you don&apos;t see me coding, I&apos;m probably reading, playing
+          chess or just having{" "}
           <a href="https://badtimesimulator.io/" className="text-with-image">
-            "a very good time".
+            &quot;a very good time&quot;.
           </a>
           <img
             src="/assets/sans.png"
             className="hidden w-64 h-64 absolute top-[50%] right-[50%] translate-x-[50%] translate-y-[-50%]"
             id="custom-cursor-image"
+            alt="sans"
           />
         </p>
       </div>
